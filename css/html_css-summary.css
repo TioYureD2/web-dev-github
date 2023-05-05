@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(242, 220, 230);
+  background-color: rgb(220, 223, 242);
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -7,7 +7,7 @@ body {
 h1 {
   font-size: 3em;
   font-weight: 900;
-  color: rgb(121, 3, 3);
+  color: rgb(5, 3, 121);
   /* font-family: "Roboto", sans-serif;
   font-weight: 900; */
 }
@@ -35,11 +35,11 @@ img {
 }
 main {
   padding: 25px;
-  background-color: rgb(121, 3, 3);
+  background-color: rgb(3, 11, 121);
   width: 700px;
   margin: 50px auto;
   text-align: left;
-  color: rgb(242, 220, 230);
+  color: rgb(220, 221, 242);
   border-radius: 10px;
   box-shadow: 6px 3px 12px rgba(0,0,0,0.35);
 }
@@ -49,7 +49,7 @@ footer {
 }
 a {
   display: inline-block;
-  color: rgb(49, 2, 2);
+  color: rgb(2, 3, 49);
   background-color: rgb(238, 237, 162);
   padding: 2px;
   border-radius: 3px;
