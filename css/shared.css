@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(233, 215, 207);
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(141, 124, 109);
+  margin: 50px;
+}
+p {
+  font-size: 24px;
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(44, 42, 40);
+}
+h2 {
+  font-family: "Carlito", sans-serif;
+  color: rgb(230, 178, 81);
+}
+h3 {
+  color: darkred;
+}
+a {
+  color: rgb(167, 1, 78);
+  text-decoration: none;
+}
+a:hover {
+  color: darkred;
+}
+hr {
+  background-color: rgb(97, 87, 76);
+  height: 3px;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+}
+#day4 {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(141, 124, 109);
+}
