@@ -1,95 +1,56 @@
-h1 {
+header h1{
   font-size: 4em;
-  color: rgb(110, 79, 43);
-  text-shadow: 5px 3px 10px rgb(116, 115, 115);
-  margin: 12px 0px;
+    color: rgb(110, 79, 43);
+    text-shadow: rgb(116, 115, 115) 5px 3px 10px;
 }
-a {
+header a{
   background-color: chocolate;
-  color: aliceblue;
-  border-radius: 5px;
-  padding: 5px 20px;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
-a:hover {
-  background-color: rgb(173, 86, 23);
-  color: aliceblue;
+main p{
+  color: rgb(141, 124, 109)
 }
-ul {
-  display:inline-block;
-  list-style: none;
+main{
   width: 80%;
-  margin: 36px auto 0 auto;
+  margin: 100px auto 0 auto;
+}
+main ul{
   padding: 0;
 }
-li {
-  background-color: rgb(238, 153, 113);
-  box-shadow: 5px 5px 10px rgb(117, 133, 133);
+main li{
+  margin: 25px 0;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  list-style: none;
   border-radius: 5px;
-  margin: 0 0 0 0;
-  padding: 2px;
+  padding: 5px 0;
 }
-#call {
-  margin-bottom: 36px;
+main p{
+  color: rgb(51, 1, 1);
+  font-weight: 600;
 }
-#check {
-  margin: 0 0 0px 0;
-  background-color: rgb(171, 231, 166);
-}
-#check-no-click {
-  margin: 0 0 0px 0;
-  background-color: rgb(114, 214, 103);
-  color: rgb(82, 79, 79);
-}
-.list {
-  background: none;
-  background-color: transparent;
+footer{
+  background-color:darkred;
+  padding: 32px;
+  margin: 0 -50px -50px -50px;
 }
 .wait{
-  margin-bottom: 20px;
+  
+  background-color: rgb(238, 153, 113);
 }
-a li {
-  background: none;
-  margin: 0 0 0px 0;
-  background-color: rgb(171, 231, 166);
-  color: rgb(82, 79, 79);
-}
-a:hover li {
-  margin: 0 0 0px 0;
-  background: none;
+.check-no-click{
   background-color: rgb(114, 214, 103);
-  color: rgb(82, 79, 79);
 }
-ul a:hover {
-  margin: 0 0 0px 0;
-  background: none;
-  background-color: transparent;
+.list{
+  background-color: rgb(171, 231, 166);
 }
-footer {
-  color: rgb(238, 153, 113);
-  background-color: darkred;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 600;
-  margin-bottom: -50px;
-  margin-left: -50px;
-  margin-right: -50px;
+.developing{
+    background-color: rgb(231, 230, 166);
 }
-body h2 {
-  margin-top: 64px;
+.list:hover{
+  background-color: rgb(114, 214, 103);
 }
-li p {
-  padding: 11px;
-  margin: 0;
-  font-weight: 600;
+.developing:hover{
+  background-color: rgb(204, 193, 90);
 }
-/* li h3 {
-  margin: 0;
-  padding: 11px;
-} */
-header a {
-  display: inline-block;
-  margin: 10px;
-}
-/* ul li {
-  margin: 0 0 32px 0;
-} */
