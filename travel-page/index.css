@@ -1,4 +1,3 @@
-
 #hero {
   height: 800px;
   background-image: url("/travel-page/ocean.jpg");
@@ -42,4 +41,22 @@
 }
 #hero-content a:hover {
   background-color: rgb(255, 238, 0);
+}
+#highlights h2 {
+  text-align: center;
+  font-size: 2em;
+}
+#highlights {
+  position: absolute;
+  width: 100%;
+  background-color: rgb(127, 255, 238);
+}
+#destinations {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.destination img {
+  height: 200px;
+  text-align: center;
 }
