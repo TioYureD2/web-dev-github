@@ -18,8 +18,12 @@ header li a:hover {
   color: rgb(22, 211, 228);
 }
 main ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
   width: 1200px;
   margin: 0 auto;
+  margin:0 auto 40px auto;
 }
 main li {
   display: flex;
@@ -29,11 +33,18 @@ main li {
   border-radius: 6px;
   overflow: hidden;
   object-fit: cover;
-  width: 500px;
 }
 main li img {
   width: 300px;
   height: 280px;
+}
+li:nth-of-type(3){
+  grid-column: 1/ span 2;
+  width: 1200px;
+}
+li:nth-of-type(10){
+  grid-column: 1/ span 2;
+  width: 1200px;
 }
 .item-content {
   padding: 24px;
