@@ -1,0 +1,78 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background: linear-gradient(90deg, rgb(44, 41, 38), rgb(64, 61, 58));
+}
+main{
+    text-align: center
+}
+header {
+  background-color: black;
+  margin: 0;
+}
+h1{
+    color: goldenrod
+}
+header nav ul {
+  display: flex;
+  margin: 0 80px;
+}
+header nav ul li {
+  list-style: none;
+  padding: 0 10px;
+}
+header nav ul li a{
+    color: goldenrod;
+    padding: 5px 12px;
+}
+a {
+  text-decoration: none;
+  color: goldenrod;
+}
+#main-header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+#main-header a {
+  color: goldenrod;
+  padding: 4px 16px;
+  border-radius: 5px;
+}
+#main-header a:hover{
+    color: black;
+    background-color: goldenrod;
+}
+#logo{
+    font-size:35px;
+    margin: 0 80px;
+    text-transform: uppercase;  
+    font-weight: 700;
+}
+#logo:hover{
+    color: goldenrod;
+}
+#main-header #logo:hover{
+    color: goldenrod;
+}
+section ul{
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: 50% 50%;
+    list-style: none;
+    padding: 0;
+}
+section ul img{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 0;
+}
+h2{
+    margin-top: 0;
+}
+
+.food-item-content{
+    background: darksalmon;
+}
