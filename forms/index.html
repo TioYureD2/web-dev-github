@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HTML Forms</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Demo Form</h1>
+    </header>
+    <main>
+      <form action="index.html" method="GET">
+        <section id="user-data">
+          <h2>Your data</h2>
+          <label for="username">Your name</label>
+          <input type="text" name="user-name" id="username" required />
+          <label for="useremail">Your e-mail adress</label>
+          <input type="email" name="user-email" id="useremail" required />
+          <label for="userpassword">Your password</label>
+          <input
+            type="password"
+            name="user-password"
+            id="userpassword"
+            required
+            minlenght="8"
+          />
+        </section>
+
+        <section id="personal-data">
+          <h2>Your personal data</h2>
+          <label for="userage">Your age</label>
+          <input
+            type="number"
+            step="1"
+            name="user-age"
+            id="userage"
+            required
+            min="18"
+          />
+          <label for="birthdate">Your birthdate</label>
+          <input
+            type="date"
+            name="birthdate"
+            id="birthdate"
+            required
+            min="1903-01-01"
+            max="2005-12-31"
+          />
+
+          <label for="favcolor">What is your favourite color?</label>
+          <select name="fav-color" id="favcolor">
+            <option value="none">Select...</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+          </select>
+        </section>
+
+        <section id="message">
+          <h2>Your message</h2>
+          <label for="usermessage">Your Message</label>
+          <textarea id="usermessage" name="user-message">
+Type Your message
+          </textarea>
+        </section>
+
+        <section id="account-verification">
+          <h2>How shoud we verify your account?</h2>
+          <div class="form-control-inline">
+            <input
+              type="radio"
+              name="verify"
+              id="verify-sms"
+              value="sms"
+              required
+            />
+            <label for="verify-sms">Via SMS</label>
+          </div>
+          <div class="form-control-inline">
+            <input
+              type="radio"
+              name="verify"
+              id="verify-call"
+              value="call"
+              required
+            />
+            <label for="verify-call">Via phone call</label>
+          </div>
+          <div class="form-control-inline">
+            <input
+              type="radio"
+              name="verify"
+              id="verify-email"
+              value="email"
+              required
+            />
+            <label for="verify-email">Via e-mail</label>
+          </div>
+        </section>
+
+        <section id="contact-details">
+          <h2>Contact</h2>
+          <div class="form-control-inline">
+            <input
+              type="checkbox"
+              id="push-agree"
+              name="push"
+              value="pushagree"
+            />
+            <label for="push-agree"
+              >I agree to receive notifications about offers, news and relevant
+              content via email</label
+            >
+          </div>
+          <div class="form-control-inline">
+            <input
+              type="checkbox"
+              id="push-sms-agree"
+              name="push"
+              value="pushcallagree"
+            />
+            <label for="push-sms-agree"
+              >I agree to receive notifications about offers, news and relevant
+              content via SMS</label
+            >
+          </div>
+        </section>
+        <section id="agreement">
+          <h2>Terms</h2>
+          <div class="form-control-inline">
+            <input type="checkbox" id="terms-agree" name="terms" required />
+            <label for="terms-agree"
+              >I agree to the <a href="">Terms of Use</a></label
+            >
+          </div>
+          <div class="form-control-inline">
+            <input type="checkbox" id="policy-agree" name="policy" required />
+            <label for="policy-agree"
+              >I agree to the <a href="">Privacy Policy</a></label
+            >
+          </div>
+        </section>
+        <button>Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
