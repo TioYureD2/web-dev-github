@@ -28,6 +28,7 @@ body{
     padding: 0.25rem;
     color: rgb(58,58,58);
     outline: none;
+    resize: none;
   }
   input:focus, textarea:focus, select:focus {
     background-color: rgb(219, 190, 253);
