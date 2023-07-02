@@ -1,38 +1,19 @@
-let userAge = 26;
-let userName = "Yure Oliveira";
-let hobbies = [
-  " Watch races",
-  " Play some music",
-  " Drink some coffee",
-  " Date my girlfriend",
-];
-let job = {
-  title: "Developer",
-  city: "Maricá",
-  stateOrProvince: "Rio de Janeiro",
-  started: "June, 2022",
-  finished: "present",
-  salary: 36000,
-};
-let adultYears;
-function calculateAdultYears(x){
-  return x - 18;
+let firstParagraph = document.body.querySelector("p");
+
+function changeText() {
+  firstParagraph.textContent = "Clicked";
 }
 
-adultYears = calculateAdultYears(userAge);
-console.log(adultYears);
-userAge = 68;
-adultYears = calculateAdultYears(userAge);
-console.log(adultYears);
-userAge = 108;
-adultYears = calculateAdultYears(118);
-console.log(adultYears);
+firstParagraph.addEventListener("click", changeText);
 
-let person = {
-  name: "Yure",
-  greet(){
-    console.log("Hello!");
-  }
-};
+//input
 
-person.greet();
+let inputField = document.querySelector("input");
+
+function getInput(event) {
+  let text = event.target.value;
+  console.log(text);
+//   console.log(event);
+}
+
+inputField.addEventListener("input", getInput);

@@ -1,0 +1,6 @@
+feat: Finished Section 11
+
+-Started to dive into one of the most important JavaScript concepts that will help you build interactive websites: The DOM.
+-Learned and practiced how I may work with the DOM efficiently.
+-Learned how to listen and react to user input and user events - something I will need for basically every interactive website.
+-Wraped up the JavaScript DOM fundamentals
